@@ -101,6 +101,8 @@ for row = 1 : size(all_data_sorted, 1)
             b = b + 1;
         end
     end
+    k
+    b
     binned_data{b}(k, :) = temp_row; % Add this row to the current bin
     k = k + 1;
 end
